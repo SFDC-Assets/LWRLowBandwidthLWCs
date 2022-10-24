@@ -1,0 +1,43 @@
+<template>
+    <template if:true={casecomment}>
+        <lightning-card>
+            <lightning-tile label={casecomment.memberName} onclick={navigateToItem}>
+                <dl class="slds-dl_horizontal">
+                    <dt class="slds-dl_horizontal__label">
+                        <p title="Public:">Public:</p>
+                    </dt>
+                    <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                        <p title={casecomment.isPublished}><lightning-input
+                            type="checkbox"
+                            label="Is Published?"
+                            variant="label-hidden"
+                            checked={casecomment.IsPublished}
+                            ></lightning-input>
+                        </p>
+                    </dd>
+                    <dt class="slds-dl_horizontal__label">
+                        <p title="Created Date:">Created Date:</p>
+                    </dt>
+                    <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                        <p title={casecomment.createdDate}><lightning-formatted-date-time
+                            value={casecomment.CreatedDate}
+                            year="numeric"
+                            month="numeric"
+                            day="numeric"
+                            hour="2-digit"
+                            minute="2-digit"
+                            time-zone-name="short"
+                            ></lightning-formatted-date-time>
+                        </p>
+                    </dd>
+                    <dt class="slds-dl_horizontal__label">
+                        <p title="Comment:">Comment:</p>
+                    </dt>
+                    <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                        <p title={casecomment.comment}>{casecomment.CommentBody}</p>
+                    </dd>
+                </dl>
+            </lightning-tile>
+        </lightning-card>
+    </template>
+</template>

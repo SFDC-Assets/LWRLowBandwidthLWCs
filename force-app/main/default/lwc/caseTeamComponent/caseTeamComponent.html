@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Case Team" icon-name="standard:case" class="slds-var-p-around_small">
+        <template if:true={hasTeam}>
+            <lightning-layout multiple-rows="true" pull-to-boundary="true">
+                <template for:each={caseTeam} for:item="teamMember">
+                    <lightning-layout-item key={teamMember.Id} class="slds-var-m-around_small">
+                        <c-case-team-member-component teammember={teamMember}></c-case-team-member-component>
+                    </lightning-layout-item>
+                </template>
+            </lightning-layout>
+        </template>
+    </lightning-card>
+</template>

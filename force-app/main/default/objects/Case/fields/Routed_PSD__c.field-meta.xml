@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Routed_PSD__c</fullName>
+    <externalId>false</externalId>
+    <label>Routed PSD</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AFLOAT EAST</fullName>
+                <default>false</default>
+                <label>AFLOAT EAST</label>
+            </value>
+            <value>
+                <fullName>AFLOAT WEST</fullName>
+                <default>false</default>
+                <label>AFLOAT WEST</label>
+            </value>
+            <value>
+                <fullName>ATSUGI</fullName>
+                <default>false</default>
+                <label>ATSUGI</label>
+            </value>
+            <value>
+                <fullName>BAHRAIN</fullName>
+                <default>false</default>
+                <label>BAHRAIN</label>
+            </value>
+            <value>
+                <fullName>CHARLESTON</fullName>
+                <default>false</default>
+                <label>CHARLESTON</label>
+            </value>
+            <value>
+                <fullName>DJIBOUTI (CSD OF BAHRAIN)</fullName>
+                <default>false</default>
+                <label>DJIBOUTI (CSD OF BAHRAIN)</label>
+            </value>
+            <value>
+                <fullName>EVERETT</fullName>
+                <default>false</default>
+                <label>EVERETT</label>
+            </value>
+            <value>
+                <fullName>GREAT LAKES</fullName>
+                <default>false</default>
+                <label>GREAT LAKES</label>
+            </value>
+            <value>
+                <fullName>GUAM</fullName>
+                <default>false</default>
+                <label>GUAM</label>
+            </value>
+            <value>
+                <fullName>GUANTANAMO BAY</fullName>
+                <default>false</default>
+                <label>GUANTANAMO BAY</label>
+            </value>
+            <value>
+                <fullName>JACKSONVILLE</fullName>
+                <default>false</default>
+                <label>JACKSONVILLE</label>
+            </value>
+            <value>
+                <fullName>KITSAP</fullName>
+                <default>false</default>
+                <label>KITSAP</label>
+            </value>
+            <value>
+                <fullName>LEMOORE</fullName>
+                <default>false</default>
+                <label>LEMOORE</label>
+            </value>
+            <value>
+                <fullName>MAYPORT</fullName>
+                <default>false</default>
+                <label>MAYPORT</label>
+            </value>
+            <value>
+                <fullName>MONTEREY</fullName>
+                <default>false</default>
+                <label>MONTEREY</label>
+            </value>
+            <value>
+                <fullName>NAPLES</fullName>
+                <default>false</default>
+                <label>NAPLES</label>
+            </value>
+            <value>
+                <fullName>NEW LONDON</fullName>
+                <default>false</default>
+                <label>NEW LONDON</label>
+            </value>
+            <value>
+                <fullName>NORTH ISLAND</fullName>
+                <default>false</default>
+                <label>NORTH ISLAND</label>
+            </value>
+            <value>
+                <fullName>OCEANA</fullName>
+                <default>false</default>
+                <label>OCEANA</label>
+            </value>
+            <value>
+                <fullName>OKINAWA</fullName>
+                <default>false</default>
+                <label>OKINAWA</label>
+            </value>
+            <value>
+                <fullName>PEARL HARBOR</fullName>
+                <default>false</default>
+                <label>PEARL HARBOR</label>
+            </value>
+            <value>
+                <fullName>PENSACOLA</fullName>
+                <default>false</default>
+                <label>PENSACOLA</label>
+            </value>
+            <value>
+                <fullName>ROTA</fullName>
+                <default>false</default>
+                <label>ROTA</label>
+            </value>
+            <value>
+                <fullName>SAN ANTONIO</fullName>
+                <default>false</default>
+                <label>SAN ANTONIO</label>
+            </value>
+            <value>
+                <fullName>SAN DIEGO</fullName>
+                <default>false</default>
+                <label>SAN DIEGO</label>
+            </value>
+            <value>
+                <fullName>SASEBO</fullName>
+                <default>false</default>
+                <label>SASEBO</label>
+            </value>
+            <value>
+                <fullName>SIGONELLA</fullName>
+                <default>false</default>
+                <label>SIGONELLA</label>
+            </value>
+            <value>
+                <fullName>TPD MEMPHIS</fullName>
+                <default>false</default>
+                <label>TPD MEMPHIS</label>
+            </value>
+            <value>
+                <fullName>TSC GREAT LAKES</fullName>
+                <default>false</default>
+                <label>TSC GREAT LAKES</label>
+            </value>
+            <value>
+                <fullName>TSC MEMPHIS</fullName>
+                <default>false</default>
+                <label>TSC MEMPHIS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Related Cases" icon-name="standard:case" class="slds-var-p-around_small">
+        <template if:true={data}>
+            <div class="slds-m-around_medium">
+                <template if:true={data}>
+                    <lightning-datatable
+                    key-field="Id"
+                    data={data}
+                    columns={myColumns}
+                    ></lightning-datatable>
+                </template>
+            </div>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,21 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "package": "LWRLowBandwidthLWCs",
+            "versionName": "Version 1.0",
+            "versionNumber": "1.0.0.NEXT",
+            "default": true
+        }
+    ],
+    "name": "sf-navy-lwr",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "55.0",
+    "packageAliases": {
+        "LWRLowBandwidthLWCs": "0Ho8a000000001TCAQ",
+        "LWRLowBandwidthLWCs@0.1.0-1": "04t8a000001B8fiAAC",
+        "LWRLowBandwidthLWCs@0.1.0-2": "04t8a000001B8fnAAC",
+        "LWRLowBandwidthLWCs@1.0.0-2": "04t8a000001B8fxAAC"
+    }
+}

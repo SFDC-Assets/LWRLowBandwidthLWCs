@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Request Type</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Activity Gains</fullName>
+                <default>false</default>
+                <label>Activity Gains</label>
+            </value>
+            <value>
+                <fullName>Enlisted NAVET/OSVET Strength Gain</fullName>
+                <default>false</default>
+                <label>Enlisted NAVET/OSVET Strength Gain</label>
+            </value>
+            <value>
+                <fullName>Enlisted Service Record</fullName>
+                <default>false</default>
+                <label>Enlisted Service Record</label>
+            </value>
+            <value>
+                <fullName>Enlisted Strength Gain</fullName>
+                <default>false</default>
+                <label>Enlisted Strength Gain</label>
+            </value>
+            <value>
+                <fullName>Enlisted to Officer Conversions (AC)</fullName>
+                <default>false</default>
+                <label>Enlisted to Officer Conversions (AC)</label>
+            </value>
+            <value>
+                <fullName>ESO</fullName>
+                <default>false</default>
+                <label>ESO</label>
+            </value>
+            <value>
+                <fullName>Extensions</fullName>
+                <default>false</default>
+                <label>Extensions</label>
+            </value>
+            <value>
+                <fullName>Leave</fullName>
+                <default>false</default>
+                <label>Leave</label>
+            </value>
+            <value>
+                <fullName>MILPAY</fullName>
+                <default>false</default>
+                <label>MILPAY</label>
+            </value>
+            <value>
+                <fullName>NAVPTO_Transportation</fullName>
+                <default>false</default>
+                <label>NAVPTO_Transportation</label>
+            </value>
+            <value>
+                <fullName>Officer Strength Gain (AC)</fullName>
+                <default>false</default>
+                <label>Officer Strength Gain (AC)</label>
+            </value>
+            <value>
+                <fullName>Reenlistments</fullName>
+                <default>false</default>
+                <label>Reenlistments</label>
+            </value>
+            <value>
+                <fullName>Reserves</fullName>
+                <default>false</default>
+                <label>Reserves</label>
+            </value>
+            <value>
+                <fullName>Retirements/Separations</fullName>
+                <default>false</default>
+                <label>Retirements/Separations</label>
+            </value>
+            <value>
+                <fullName>Students</fullName>
+                <default>false</default>
+                <label>Students</label>
+            </value>
+            <value>
+                <fullName>Transfers</fullName>
+                <default>false</default>
+                <label>Transfers</label>
+            </value>
+            <value>
+                <fullName>Transient</fullName>
+                <default>false</default>
+                <label>Transient</label>
+            </value>
+            <value>
+                <fullName>Travel</fullName>
+                <default>false</default>
+                <label>Travel</label>
+            </value>
+            <value>
+                <fullName>Travel Advance</fullName>
+                <default>false</default>
+                <label>Travel Advance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

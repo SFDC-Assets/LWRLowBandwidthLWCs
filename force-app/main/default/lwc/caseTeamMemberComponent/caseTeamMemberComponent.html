@@ -1,0 +1,22 @@
+<template>
+    <template if:true={teammember}>
+        <lightning-card>
+            <lightning-tile label={teammember.memberName} onclick={navigateToItem}>
+                <dl class="slds-dl_horizontal">
+                    <dt class="slds-dl_horizontal__label">
+                        <p title="Member Role:">Member Role:</p>
+                    </dt>
+                    <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                        <p title={teammember.teamRole}>{teammember.teamRole}</p>
+                    </dd>
+                    <dt class="slds-dl_horizontal__label">
+                        <p title="Access Level:">Access Level:</p>
+                    </dt>
+                    <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                        <p title={teammember.accessLevel}>{teammember.accessLevel}</p>
+                    </dd>
+                </dl>
+            </lightning-tile>
+        </lightning-card>
+    </template>
+</template>

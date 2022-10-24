@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Sailor Record" icon-name="standard:contact" class="slds-var-p-around_small">
+        <template if:true={showContact}>
+            <lightning-record-form
+                object-api-name="Contact"
+                record-id={contactId}
+                fields={contactFields}
+                columns="2"
+                mode="view"
+                class="slds-var-p-around_small">
+            </lightning-record-form>
+        </template>
+    </lightning-card>
+</template>

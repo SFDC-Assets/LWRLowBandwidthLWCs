@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Problem_Code__c</fullName>
+    <externalId>false</externalId>
+    <label>Problem Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Request_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Receipts</fullName>
+                <default>false</default>
+                <label>Receipts</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Officer Strength Gain (AC)</controllingFieldValue>
+            <controllingFieldValue>Reenlistments</controllingFieldValue>
+            <controllingFieldValue>Reserves</controllingFieldValue>
+            <controllingFieldValue>Retirements/Separations</controllingFieldValue>
+            <controllingFieldValue>Students</controllingFieldValue>
+            <controllingFieldValue>Transfers</controllingFieldValue>
+            <controllingFieldValue>Transient</controllingFieldValue>
+            <controllingFieldValue>Travel</controllingFieldValue>
+            <controllingFieldValue>Travel Advance</controllingFieldValue>
+            <controllingFieldValue>Activity Gains</controllingFieldValue>
+            <controllingFieldValue>Enlisted NAVET/OSVET Strength Gain</controllingFieldValue>
+            <controllingFieldValue>Enlisted Service Record</controllingFieldValue>
+            <controllingFieldValue>Enlisted Strength Gain</controllingFieldValue>
+            <controllingFieldValue>Enlisted to Officer Conversions (AC)</controllingFieldValue>
+            <controllingFieldValue>ESO</controllingFieldValue>
+            <controllingFieldValue>Extensions</controllingFieldValue>
+            <controllingFieldValue>Leave</controllingFieldValue>
+            <controllingFieldValue>MILPAY</controllingFieldValue>
+            <controllingFieldValue>NAVPTO_Transportation</controllingFieldValue>
+            <valueName>Receipts</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

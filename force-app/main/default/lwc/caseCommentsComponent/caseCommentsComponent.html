@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Case Comments" icon-name="custom:custom19" class="slds-var-p-around_small">
+        <template if:true={hasComments}>
+            <lightning-layout multiple-rows="true" pull-to-boundary="true">
+                <template for:each={caseComments} for:item="comment">
+                    <lightning-layout-item key={comment.Id} class="slds-var-m-around_small">
+                        <c-case-comment-component casecomment={comment}></c-case-comment-component>
+                    </lightning-layout-item>
+                </template>
+            </lightning-layout>
+        </template>
+    </lightning-card>
+</template>
