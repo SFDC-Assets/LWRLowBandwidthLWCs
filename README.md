@@ -3,11 +3,22 @@
 ![Geography](https://img.shields.io/badge/Geography-US-blue)
 
 <h1 align="center">Lightning Web Runtime LWC Bundle</h1>
-<p align="center">This unlocked package contains 8 (yes 8!) various Lightning web components for Cases and Contacts, optimized to work on Salesforce Lightning Web Runtime (LWR) sites.  The package contains the following components: Paginated List view for both Cases and Contacts, Case detail, Case Comments, Case Team, Case Related User Detail, Contact Detail, and Contact Related Cases List View.   </p>
+<p align="center">This unlocked package contains 8 (yes 8!) various Lightning web components for Cases and Contacts, optimized to work on Salesforce Lightning Web Runtime (LWR) sites.  The package contains the following components: </p>
 
+
+<b>Paginated Case List View</b>
 ![1](images/lwrclv.png) 
 
 
+<b>Paginated Contact List View</b>
+![1](images/lwrcolv.png) 
+
+
+<b>Case Detail, Teams, Comments, Related User</b>
+![1](images/lwrcd.png) 
+
+
+<b>Contact Detail and Related Cases</b>
 ![1](images/lwrcod.png) 
 
 
