@@ -15,6 +15,7 @@
 This component was created to reduce the latency and load time in low bandwidth Salesforce environments by creating Case and Contact pages as lightweight LWCs contained on a LWR site.  The load times you experience may vary, but testing these lightweight LWR pages compared to the Standard Lightning case and contact pages, there was a significant speed improvement on each of the LWR pages.  
 
 
+
 ## Speed Test Results
 
 Speed testing for the components was done at 100 kb/s for each test.  The same contact list views and case records were used in each of the following tests.  The results for each load time were as follows:
@@ -44,15 +45,9 @@ Speed testing for the components was done at 100 kb/s for each test.  The same c
 From both test cases you can see that ~4.2 MB of data had been saved from transfer in each of the LWR cases, allowing a massive 5-6 minutes to be shaved off of the total page loading times in both cases.  
 
 
-## Flow Setup
+## Component Setup and Overview
 
-The flow used here is super basic and consists of only 3 basic steps: rendering a button, calling our apex class, and then opening the URL with the <a href="https://unofficialsf.com/new-ways-to-open-web-pages-from-flow/">UnofficialSF OpenURL action</a>.
-
-![flow overview](images/flow_overview.png)
-
-The only thing to note here is to ensure that you are passing the output parameters correctly to the openURL function like so:
-
-![apex action](images/apex_action.png)
+The component as a whole is pretty straightforward to setup, as it contains components that will essentially drag and drop onto any LWR site.  Once you have configured a 
 
 ![open url](images/open_url.png)
 
