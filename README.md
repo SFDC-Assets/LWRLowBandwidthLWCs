@@ -17,7 +17,7 @@ This component was created to reduce the latency and load time in low bandwidth 
 
 ## Speed Test Results
 
-Speed testing for the components was done at 100 kb/s and the results for each load time were as follows:
+Speed testing for the components was done at 100 kb/s for each test.  The same contact list views and case records were used in each of the following tests.  The results for each load time were as follows:
 
 
 <b>Standard Contact List View Page</b>
@@ -31,8 +31,6 @@ Speed testing for the components was done at 100 kb/s and the results for each l
 ![lwrcontactlvload](images/LWRContactListViewLoad.png)
 
 
-
-
 <b>Standard Case Detail Page</b>
 
 ![standardcontactlvload](images/sc1.png) 
@@ -42,6 +40,9 @@ Speed testing for the components was done at 100 kb/s and the results for each l
 <b>LWR Case Detail Page</b>
 
 ![lwrcontactlvload](images/lwr1.png)
+
+From both test cases you can see that ~4.2 MB of data had been saved from transfer in each of the LWR cases, allowing a faster load time on each of the LWR pages and cutting down the entire page load time by a massive 5-6 minutes in both cases.  
+
 
 ## Flow Setup
 
