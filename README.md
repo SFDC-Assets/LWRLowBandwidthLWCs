@@ -3,7 +3,7 @@
 ![Geography](https://img.shields.io/badge/Geography-US-blue)
 
 <h1 align="center">Lightning Web Runtime LWC Bundle</h1>
-<p align="center">This unlocked package contains 8 (yes 8!) various Lightning web components for Cases and Contacts, optimized to work on Salesforce Lightning Web Runtime (LWR) sites.  The package contains the following components: </p>
+<p align="center">This unlocked package contains 8 (yes <b>8!<\b>) various Lightning web components for Cases and Contacts, optimized to work on Salesforce Lightning Web Runtime (LWR) sites.  The package contains the following components: </p>
 
 
 <b>Paginated Case List View</b>
