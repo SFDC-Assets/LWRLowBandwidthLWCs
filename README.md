@@ -3,7 +3,7 @@
 ![Geography](https://img.shields.io/badge/Geography-US-blue)
 
 <h1 align="center">Lightning Web Runtime LWC Bundle</h1>
-<p align="center">This unlocked package contains 10 (yes 10!) various Lightning web components for Cases and Contacts, optimized to work on Salesforce Lightning Web Runtime (LWR) sites.  The purpose of these components was to demonstrate a lightweight experience for cases and contacts, optimized to run on super low bandwidth internet connections. </p>
+<p align="center">This unlocked package contains 8 (yes 8!) various Lightning web components for Cases and Contacts, optimized to work on Salesforce Lightning Web Runtime (LWR) sites.  The package contains the following components: Paginated List view for both Cases and Contacts, Case detail, Case Comments, Case Team, Case Related User Detail, Contact Detail, and Contact Related Cases List View.   </p>
 
 <!-- Sections below are Optional -->
 
@@ -11,11 +11,12 @@
 
 ## Summary
 
-This component was originally designed for a clothing supply program for a branch of the U.S Military.  The goal of this component was to render all of the warehouse locations that contained the requested order line items onto a dynamically created Salesforce Maps layer.  From the simple push of a button on the order form, users would be automatically redirected to a view of Salesforce Maps that displays all of the locations that contained the requested items on the order form.
+
+This component was created to reduce the latency and load time in low bandwidth Salesforce environments by creating Case and Contact pages as lightweight LWCs contained on a LWR site.  The load times you experience may vary, but testing these lightweight LWR pages compared to the Standard Lightning case and contact pages, there was a significant speed improvement on each of the LWR pages.  Speed testing for the components was done at 100 kb/s and the results for each load time were as follows: 600% speed improvement on list view pages, and a 700% speed improvement on detail pages.
 
 ![Map View](images/map_view.png)
 
-The Apex mapping function is then embedded into a flow button that can be placed directly on the record page that you will call the action from, and then utilizes the <a href="https://unofficialsf.com/new-ways-to-open-web-pages-from-flow/">UnofficialSF OpenURL flow component</a> to open the layer in Salesforce Maps.
+
 
 ## Code Setup Instructions
 
