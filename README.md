@@ -92,12 +92,11 @@ data.forEach((row) => {
 });
 ```
 
+These same steps can be repeated for modifying the contact list view fields.
+
 ## Deploy this package
 
-<a href="https://githubsfdeploy.herokuapp.com?owner=SFDC-Assets&repo=DynamicSFMaps">
-  <img alt="Deploy to Salesforce"
-       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
-</a>
+[Install the Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t8a000001B8fxAAC)
 
 ## Maintainer
 
