@@ -35,13 +35,13 @@ Speed testing for the components was done at 100 kb/s and the results for each l
 
 <b>Standard Case Detail Page</b>
 
-![standardcontactlvload](images/scdl.png) 
+![standardcontactlvload](images/sc1.png) 
 
 
 
 <b>LWR Case Detail Page</b>
 
-![lwrcontactlvload](images/lwrcdl.png)
+![lwrcontactlvload](images/lwr1.png)
 
 ## Flow Setup
 
