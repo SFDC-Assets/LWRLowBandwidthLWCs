@@ -20,13 +20,13 @@ This component was created to reduce the latency and load time in low bandwidth 
 Speed testing for the components was done at 100 kb/s and the results for each load time were as follows:
 
 
-<b>Standard Case Detail Page</b>
+<b>Standard Contact List View Page</b>
 
 ![StandardCaseDetailLoad](images/StandardContactListViewLoad.png) 
 
 
 
-<b>LWR Case Detail Page</b>
+<b>LWR Contact List View Page</b>
 
 ![LWRCaseDetailLoad](images/LWRContactListViewLoad.png)
 
