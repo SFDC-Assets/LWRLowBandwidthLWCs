@@ -64,7 +64,9 @@ From both test cases you can see that ~4.2 MB of data had been saved from transf
 
 ## Component Setup and Overview
 
-The component as a whole is pretty straightforward to setup, as it contains components that will essentially drag and drop onto any LWR site.  Once you have configured a 
+The component as a whole is pretty straightforward to setup, as it contains components that will essentially drag and drop onto any LWR site.  In order to modify the fields displayed on the list view components, navigate to the corresponding Apex Class controller and modify the query line to select the fields you want to display: 
+
+``` String query = 'SELECT Id, MyField1__c , MyField2__c FROM Case';```
 
 ![open url](images/open_url.png)
 
