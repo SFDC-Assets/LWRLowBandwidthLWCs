@@ -64,11 +64,30 @@ From both test cases you can see that ~4.2 MB of data had been saved from transf
 
 ## Component Setup and Overview
 
-The component as a whole is pretty straightforward to setup, as it contains components that will essentially drag and drop onto any LWR site.  In order to modify the fields displayed on the list view components, navigate to the corresponding Apex Class controller and modify the query line to select the fields you want to display: 
+The component as a whole is pretty straightforward to setup, as it contains components that will essentially drag and drop onto any LWR site.  In order to modify the fields displayed on the case list view components, navigate to the CaseListContoller.cls file and modify the query line (line 5) to select the fields you want to display:
 
-<b>line 5 in CaseListController.cls</b>
 ``` String query = 'SELECT Id, MyField1__c , MyField2__c FROM Case';```
 
+You would then navigate to the caseListViewComponent.js file and update the const COLUMNS on line 12 to match the fields: 
+
+'''const COLUMNS = [
+    {label: 'Id', fieldName: 'Id', sortable:"true"},
+    {label: 'MyField1', fieldName: 'MyField1__c', sortable:"true"},
+    {label: 'MyField2', fieldName: 'MyField2__c', sortable:"true"}
+  ]'''
+
+Lastly, in the data.forEach loop on line 68, modify the loop to set the variables to the ones you want to query:
+
+ ```
+             data.forEach((row) => {
+                let rowData = {};
+                rowData.Id=row.Id;
+                rowData.MyField2__c = row.MyField1__c;
+                rowData.MyField2__c = row.MyField2__c;
+                
+                currentData.push(rowData);
+                console.log(`${JSON.stringify(rowData)}`);
+            });```
 
 ## Deploy this package
 
