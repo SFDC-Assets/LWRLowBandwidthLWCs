@@ -59,7 +59,7 @@ Speed testing for the components was done at 100 kb/s for each test.  The same c
 
 ![lwrcontactlvload](images/lwr1.png)
 
-From both test cases you can see that ~4.2 MB of data had been saved from transfer in each of the LWR cases, allowing a massive 5-6 minutes to be shaved off of the total page loading times in both cases.  This is extremely significant in a use case where time-sensitive data needs to be viewed in a low bandwidth connection environment.
+From both test cases you can see that ~4.2 MB of data had been saved from transfer in each of the LWR cases, allowing a massive 5-6 minutes to be shaved off of the total page loading times in both cases.  This is extremely significant in a use case where necessary and time-sensitive data needs to be viewed in a low bandwidth connection environment.
 
 
 ## Component Setup and Overview
