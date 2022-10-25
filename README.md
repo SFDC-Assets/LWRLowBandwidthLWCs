@@ -64,7 +64,9 @@ From both test cases you can see that ~4.2 MB of data had been saved from transf
 
 ## Component Setup and Overview
 
-The component as a whole is pretty straightforward to setup, as it contains components that will essentially drag and drop onto any LWR site.  In order to modify the fields displayed on the case list view components, navigate to the CaseListContoller.cls file and modify the query line (line 5) to select the fields you want to display:
+The package as a whole is pretty straightforward to setup, as it contains LWCs that will essentially drag and drop onto any LWR site.
+
+Some code customization is required in version 1.0.0 in order to modify the fields displayed on the case list view components.  To make these changes, navigate to the CaseListContoller.cls file and modify the query line (line 5) to select the fields you want to display:
 
 ``` String query = 'SELECT Id, MyField1__c , MyField2__c FROM Case';```
 
