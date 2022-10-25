@@ -22,13 +22,26 @@ Speed testing for the components was done at 100 kb/s and the results for each l
 
 <b>Standard Contact List View Page</b>
 
-![StandardCaseDetailLoad](images/StandardContactListViewLoad.png) 
+![standardcontactlvload](images/StandardContactListViewLoad.png) 
 
 
 
 <b>LWR Contact List View Page</b>
 
-![LWRCaseDetailLoad](images/LWRContactListViewLoad.png)
+![lwrcontactlvload](images/LWRContactListViewLoad.png)
+
+
+
+
+<b>Standard Case Detail Page</b>
+
+![standardcontactlvload](images/scdl.png) 
+
+
+
+<b>LWR Case Detail Page</b>
+
+![lwrcontactlvload](images/lwrcdl.png)
 
 ## Flow Setup
 
