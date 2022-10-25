@@ -14,7 +14,7 @@
 ![1](images/lwrcolv.png) 
 
 
-<b>Case Detail, Teams, Comments, Related User</b>
+<b>Case Detail, Case Teams, Case Comments, Related User</b>
 ![1](images/lwrcd.png) 
 
 
