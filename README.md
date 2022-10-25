@@ -74,7 +74,8 @@ You would then navigate to the caseListViewComponent.js file and update the cons
     {label: 'Id', fieldName: 'Id', sortable:"true"},
     {label: 'MyField1', fieldName: 'MyField1__c', sortable:"true"},
     {label: 'MyField2', fieldName: 'MyField2__c', sortable:"true"}
-  ]```
+  ]
+  ```
 
 Lastly, in the data.forEach loop on line 68, modify the loop to set the variables to the ones you want to query:
 
