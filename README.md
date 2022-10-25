@@ -70,11 +70,11 @@ The component as a whole is pretty straightforward to setup, as it contains comp
 
 You would then navigate to the caseListViewComponent.js file and update the const COLUMNS on line 12 to match the fields: 
 
-'''const COLUMNS = [
+```const COLUMNS = [
     {label: 'Id', fieldName: 'Id', sortable:"true"},
     {label: 'MyField1', fieldName: 'MyField1__c', sortable:"true"},
     {label: 'MyField2', fieldName: 'MyField2__c', sortable:"true"}
-  ]'''
+  ]```
 
 Lastly, in the data.forEach loop on line 68, modify the loop to set the variables to the ones you want to query:
 
@@ -87,7 +87,8 @@ Lastly, in the data.forEach loop on line 68, modify the loop to set the variable
                 
                 currentData.push(rowData);
                 console.log(`${JSON.stringify(rowData)}`);
-            });```
+            });
+```
 
 ## Deploy this package
 
