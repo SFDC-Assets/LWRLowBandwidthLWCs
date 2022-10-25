@@ -14,9 +14,17 @@
 
 This component was created to reduce the latency and load time in low bandwidth Salesforce environments by creating Case and Contact pages as lightweight LWCs contained on a LWR site.  The load times you experience may vary, but testing these lightweight LWR pages compared to the Standard Lightning case and contact pages, there was a significant speed improvement on each of the LWR pages.  
 
-Speed testing for the components was done at 100 kb/s and the results for each load time were as follows: 600% speed improvement on list view pages, and a 700% speed improvement on detail pages.
 
-![StandardCaseDetailLoad](images/StandardContactListViewLoad.png) ![LWRCaseDetailLoad](images/LWRContactListViewLoad.png)
+## Speed Test Results
+
+Speed testing for the components was done at 100 kb/s and the results for each load time were as follows:
+
+
+<b>Standard Case Detail Page</b>
+![StandardCaseDetailLoad](images/StandardContactListViewLoad.png) 
+
+
+![LWRCaseDetailLoad](images/LWRContactListViewLoad.png)
 
 ## Flow Setup
 
