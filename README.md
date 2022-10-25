@@ -96,7 +96,7 @@ data.forEach((row) => {
 });
 ```
 
-These same steps can be repeated for modifying the contact list view fields.
+These same steps can be repeated for modifying the contact list view fields.  A future release of this package will aim to solve this issue with a list view parameter on the components config screen.
 
 ## Deploy this package
 
