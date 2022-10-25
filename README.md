@@ -21,6 +21,7 @@ Speed testing for the components was done at 100 kb/s and the results for each l
 
 
 <b>Standard Case Detail Page</b>
+
 ![StandardCaseDetailLoad](images/StandardContactListViewLoad.png) 
 
 
