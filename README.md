@@ -16,9 +16,7 @@ This component was created to reduce the latency and load time in low bandwidth 
 
 Speed testing for the components was done at 100 kb/s and the results for each load time were as follows: 600% speed improvement on list view pages, and a 700% speed improvement on detail pages.
 
-![StandardCaseDetailLoad](images/StandardCaseDetailLoad.png)
-
-![LWRCaseDetailLoad](images/LWRCaseDetailLoad.png)
+![StandardCaseDetailLoad](images/StandardContactListViewLoad.png) ![LWRCaseDetailLoad](images/LWRContactListViewLoad.png)
 
 ## Flow Setup
 
