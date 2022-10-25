@@ -16,6 +16,10 @@ This component was created to reduce the latency and load time in low bandwidth 
 
 Speed testing for the components was done at 100 kb/s and the results for each load time were as follows: 600% speed improvement on list view pages, and a 700% speed improvement on detail pages.
 
+![StandardCaseDetailLoad](images/StandardCaseDetailLoad.png)
+
+![LWRCaseDetailLoad](images/LWRCaseDetailLoad.png)
+
 ## Flow Setup
 
 The flow used here is super basic and consists of only 3 basic steps: rendering a button, calling our apex class, and then opening the URL with the <a href="https://unofficialsf.com/new-ways-to-open-web-pages-from-flow/">UnofficialSF OpenURL action</a>.
